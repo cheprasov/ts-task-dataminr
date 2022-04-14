@@ -1,0 +1,62 @@
+[
+    [
+        {
+            "title": "GENERAL",
+            "items": [
+                { "element": "Toggle", "title": "CASE MANAGMENT", "name": "case_managment", "defaultValue": true },
+                { "element": "Toggle", "title": "NOTIFICATIONS", "name": "notifications", "defaultValue": true }
+            ]
+        },
+        {
+            "items": [
+                { "element": "Toggle", "title": "MAP TIMELINE", "name": "map_timeline" },
+                { "element": "Toggle", "title": "MASS COMMUNICATIONS", "name": "mass_communications" }
+            ]
+        },
+        {
+            "items": [
+                { "element": "Toggle", "title": "VIEWS & BRIEFINGS", "name": "views_briefings" },
+                { "element": "Toggle", "title": "TRAFFIC CAMERAS", "name": "traffic_cameras" }
+            ]
+        }
+    ],
+    [
+        {
+            "title": "SETTINGS",
+            "items": [
+                [
+                    { "element": "Toggle", "title": "AUDIT LOGS", "name": "audit_logs" },
+                    { "element": "Toggle", "title": "USERS", "name": "users", "items": [
+                        { "title": "USER ADD", "name": "user_add" },
+                        { "title": "USER DELETE", "name": "user_delete" },
+                        { "title": "USER EDIT", "name": "user_edit" },
+                        { "title": "MAX USERS", "name": "max_users", "values": [10, 50, 100]}
+                    ] }
+                ]
+            ]
+        },
+        {
+            "title": "SETTINGS",
+            "items": [
+                [
+                    { "element": "Toggle", "title": "AUDIT LOGS", "name": "audit_logs", "on": false },
+                    { "element": "Toggle", "title": "USERS", "name": "users", "defaultValue": true, "items": [
+                        { "title": "USER ADD", "name": "user_add" },
+                        { "title": "USER DELETE", "name": "user_delete" },
+                        { "title": "USER EDIT", "name": "user_edit" },
+                        { "title": "MAX USERS", "name": "max_users", "values": [10, 50, 100]}
+                    ] }
+                ]
+            ]
+        },
+        {
+            "title": "ALERTS",
+            "items": [
+                [
+                    { "element": "Toggle", "title": "ALERT MANAGER", "name": "audit_logs", "on": false },
+                    { "element": "Toggle", "title": "ALERT RULES", "name": "users", "defaultValue": 50, "values": [10, 50, 100] }
+                ]
+            ]
+        }
+    ]
+]
