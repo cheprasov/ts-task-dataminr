@@ -6,7 +6,7 @@ The code is based on a small exercise, please, see React_Coding_Test.pdf.
 
 ## Demo
 
-http://the-bee-game.cheprasov.com/
+http://dataminr.task.cheprasov.com/
 
 ## About me
 
