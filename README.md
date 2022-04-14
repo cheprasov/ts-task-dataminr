@@ -17,4 +17,3 @@ https://cv.cheprasov.com
 2. `Switch` component should be refactored. I just copied css styles for the component from here  https://www.w3schools.com/howto/howto_css_switch.asp for saving time
 3. Code should be covered by tests.
 4. SASS/SCSS should be based on some desing system (predefined variables and constants for fonts, colors, margins, screen resolutions and so on).
-5. 
